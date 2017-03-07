@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title></title>
-	<link rel="stylesheet" href="style/css/style.css">
+	<link rel="stylesheet" href="style/css/index.css">
 </head>
 <body>
 	<div id="container">
@@ -24,8 +24,8 @@
 			?>
 		</div>
 		<div class="exo">
+			<h2>Exercice 3</h2>
 			<?php
-				//Exercice 3
 				$km=1;
 				echo "<p>".$km."</p>";
 				$km=3;
@@ -35,8 +35,8 @@
 			?>
 		</div>
 		<div class="exo">
+			<h2>Exercice 4</h2>
 			<?php
-				//Exercice 4
 				$string="coucou";
 				$int=42;
 				$float=3.5;
@@ -45,12 +45,20 @@
 			?>
 		</div>
 		<div class="exo">
+			<h2>Exercice 5</h2>
 			<?php
-				//Exercice 5
 				$int=(int)0;
 				echo $int;
 				$int=42;
 				echo $int;
+			?>
+		</div>
+		<div class="exo">
+			<h2>Exercice 6</h2>
+			<?php
+			$nom='Mickaël';
+			echo "<p>".$nom."</p>";
+			echo '<p>Bonjour '.$nom.' comment va tu ?</p>';
 			?>
 		</div>
 	</div>
