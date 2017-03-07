@@ -88,7 +88,12 @@
 		<div class="exo">
 			<h2>Exercice 5</h2>
 			<?php
-				
+				$maVariable="homme";
+				if($maVariable != 'Homme'){
+					echo 'C\'est une développeuse !!!';
+				}else{
+					echo 'C\'est une développeuse !!!';
+				}
 			?>
 		</div>
 		<div class="exo">
