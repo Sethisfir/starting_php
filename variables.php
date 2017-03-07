@@ -47,7 +47,7 @@
 		<div class="exo">
 			<h2>Exercice 5</h2>
 			<?php
-				$int=(int)0;
+				$int=(int)NULL;
 				echo $int;
 				$int=42;
 				echo $int;
@@ -68,6 +68,15 @@
 			$prenom='Mickaël';
 			$age=28;
 			echo '<p>Bonjour '.$prenom.' '.$nom.'</br> tu as '.$age.' ans.</p>';
+			?>
+		</div>
+		<div class="exo">
+			<h2>Exercice 8</h2>
+			<?php
+			$addition = 3+4;
+			$multiplication = 5*20;
+			$division = 45/5;
+			echo '<p>3+4 = '.$addition.'</p>','<p>5x20 = '.$multiplication.'</p>','<p>45/5 = '.$division.'</p>';
 			?>
 		</div>
 	</div>
