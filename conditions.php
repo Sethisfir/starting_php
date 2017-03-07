@@ -30,5 +30,55 @@
 				}
 			?>
 		</div>
+		<div class="exo">
+			<h2>Exercice 3</h2>
+			<?php
+				$age=28;
+				$genre="femme";
+				if($genre=="homme"){
+					if($age>18){
+						echo 'Vous êtes un homme et vous êtes majeur !';
+					}else{
+						echo 'Vous êtes un homme et vous êtes mineur !';
+					}
+				}elseif($genre=="femme"){
+					if($age>18){
+						echo 'Vous êtes une femme et vous êtes majeur !';
+					}else{
+						echo 'Vous êtes une femme et vous êtes mineur !';
+					}
+				}
+			?>
+		</div>
+		<div class="exo">
+			<h2>Exercice 4</h2>
+			<?php
+				
+			?>
+		</div>
+		<div class="exo">
+			<h2>Exercice 5</h2>
+			<?php
+				
+			?>
+		</div>
+		<div class="exo">
+			<h2>Exercice 6</h2>
+			<?php
+				
+			?>
+		</div>
+		<div class="exo">
+			<h2>Exercice 7</h2>
+			<?php
+				
+			?>
+		</div>
+		<div class="exo">
+			<h2>Exercice 8</h2>
+			<?php
+				
+			?>
+		</div>
 </body>
 </html>
