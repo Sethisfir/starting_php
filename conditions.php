@@ -99,19 +99,34 @@
 		<div class="exo">
 			<h2>Exercice 6</h2>
 			<?php
-				
+				$maVariable=false;
+				if($maVariable == false){
+					echo 'c\'est pas bon !!!';
+				}else{
+					echo 'c\'est ok !!';
+				}
 			?>
 		</div>
 		<div class="exo">
 			<h2>Exercice 7</h2>
 			<?php
-				
+				$monAge=19;
+				if($monAge >= 18){
+					echo 'Tu es majeur';
+				}else{
+					echo 'Tu n\'es pas majeur';
+				}
 			?>
 		</div>
 		<div class="exo">
 			<h2>Exercice 8</h2>
 			<?php
-				
+				$maVariable=true;
+				if($maVariable){
+					echo 'c\'est ok !!';
+				}else{
+					echo 'c\'est pas bon !!!';
+				}
 			?>
 		</div>
 </body>
