@@ -7,6 +7,6 @@
 	<title>starting_php</title>
 </head>
 <body>
-	<<a href="variable.php"><h3>Exercice 1</h3></a>	
+	<a href="variables.php"><h3>Exercice 1</h3></a>	
 </body>
 </html>
