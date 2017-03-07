@@ -61,6 +61,15 @@
 			echo '<p>Bonjour '.$nom.' comment va tu ?</p>';
 			?>
 		</div>
+		<div class="exo">
+			<h2>Exercice 7</h2>
+			<?php
+			$nom='DURAND';
+			$prenom='Mickaël';
+			$age=28;
+			echo '<p>Bonjour '.$prenom.' '.$nom.'</br> tu as '.$age.' ans.</p>';
+			?>
+		</div>
 	</div>
 </body>
 </html>
