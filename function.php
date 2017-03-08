@@ -76,16 +76,50 @@
 		<div class="exo">
 			<h2>Exercice 6</h2>
 			<?php
+				function abloublou ($nom, $prenom, int $age){
+					return "Bonjour.$nom.$prenom.tu as .$age. ans !";
+				}
+				if (abloublou("DURAND","Mickaël",28)){
+					echo 'test ok <br>';
+				}else{
+					echo 'NOPE <br>';
+				}
 			?>
 		</div>
 		<div class="exo">
 			<h2>Exercice 7</h2>
 			<?php
+				function ableble (int $age, $genre){
+					if($age>=18){
+						if($genre=="homme"){
+							return "Vous êtes un homme et vous êtes majeur";
+						}else{
+							return "Vous êtes une femme et vous êtes majeur";
+						}
+					}elseif($genre=="homme"){
+						return "Vous êtes un homme et vous êtes mineur";
+					}else{
+						return "Vous êtes une femme et vous êtes mineur";
+					}	
+				}
+				if(ableble(28, "homme")){
+					echo 'test ok <br>';
+				}else{
+					echo 'NOPE <br>';
+				}
 			?>
 		</div>
 		<div class="exo">
 			<h2>Exercice 8</h2>
 			<?php
+				function ablublu(int $nb1=3, int $nb2=8, int $nb3=78){
+					return $nb1+$nb2+$nb3;
+				}
+				if(ablublu(3, 4, 5)){
+					echo 'test ok <br>';
+				}else{
+					echo 'NOPE <br>';
+				}
 			?>
 		</div>
 	</div>

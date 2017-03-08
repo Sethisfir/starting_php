@@ -11,5 +11,6 @@
 	<a href="conditions.php"><h3>Exercice 2</h3></a>
 	<a href="boucles.php"><h3>Exercice 3</h3></a>
 	<a href="function.php"><h3>Exercice 4</h3></a>
+	<a href="tableaux.php"><h3>Exercice 5</h3></a>
 </body>
 </html>
