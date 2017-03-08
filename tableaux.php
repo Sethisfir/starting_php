@@ -26,7 +26,7 @@
 		<div class="exo">
 			<h2>Exercice 3</h2>
 			<?php
-				
+				echo $mois[5];
 			?>
 		</div>
 		<div class="exo">
