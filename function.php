@@ -22,11 +22,23 @@
 		<div class="exo">
 			<h2>Exercice 2</h2>
 			<?php	
+				function string(string $string){
+					echo $string.'<br>';
+				}
+				if ($string=true){
+					echo 'test ok';
+				}
 			?>
 		</div>
 		<div class="exo ">
 			<h2>Exercice 3</h2>
 			<?php
+				function danstroissecondes(string $string, string $string2){
+					return $string.$string2;
+				}
+				if (danstroissecondes("1", "2")=="12"){
+					echo 'test ok <br>';
+				}
 			?>
 		</div>
 		<div class="exo">
