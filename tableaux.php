@@ -64,10 +64,10 @@
 				echo $Poste[51];
 			?>
 		</div>
-		<div class="exo">
+		<div class="exo scroll">
 			<h2>Exercice 8</h2>
 			<?php
-				foreach ($Poste as $key => $value) {
+				foreach ($mois as $key => $value) {
 				 	echo $value.'<br>';
 				}
 			?>
