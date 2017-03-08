@@ -75,7 +75,9 @@
 		<div class="exo">
 			<h2>Exercice 9</h2>
 			<?php
-				
+				foreach ($Poste as $key => $value) {
+				 	echo $value.' ('.$key.')<br>';
+				}
 			?>
 		</div>
 		<div class="exo">
