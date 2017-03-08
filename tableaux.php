@@ -80,11 +80,11 @@
 				}
 			?>
 		</div>
-		<div class="exo">
+		<div class="exo scroll">
 			<h2>Exercice 10</h2>
 			<?php
 				foreach ($Poste as $key => $value) {
-				 	echo $value.' ('.$key.')<br>';
+				 	echo 'Département: '.$value.'<br>Numéro Département :('.$key.')<br><br>';
 				}
 			?>
 		</div>
