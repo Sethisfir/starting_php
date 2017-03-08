@@ -32,25 +32,36 @@
 		<div class="exo">
 			<h2>Exercice 4</h2>
 			<?php
-				
+				$mois[3]="Knackie";
+				echo $mois[3];
 			?>
 		</div>
 		<div class="exo">
 			<h2>Exercice 5</h2>
 			<?php
-				
+				$Poste=array(
+					02 => "Aisne",
+					59 => "Nord",
+					60 => "Oise",
+					62 => "Pas-de-Calais",
+					80 => "Somme");
+
+				foreach ($Poste as $key => $value) {
+				 	echo $value.'<br>';
+				}
 			?>
 		</div>
 		<div class="exo">
 			<h2>Exercice 6</h2>
 			<?php
-				
+				echo $Poste[59];
 			?>
 		</div>
 		<div class="exo">
 			<h2>Exercice 7</h2>
 			<?php
-				
+				$Poste[51]="Marne";
+				echo $Poste[51];
 			?>
 		</div>
 		<div class="exo">
