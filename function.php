@@ -44,6 +44,20 @@
 		<div class="exo">
 			<h2>Exercice 4</h2>
 			<?php
+				function ablabla (int $nb1, int $nb2){
+					if ($nb1<$nb2){
+						return "le premier nombre est plus petit";
+					}elseif($nb1>$nb2){
+						return "le premier nombre est plus grand";
+					}else{
+						return "les deux nombres sont identiques";
+					}
+				}
+				if (ablabla(3, 4)){
+					echo 'test ok <br>';
+				}else{
+					echo 'NOPE <br>';
+				}
 			?>
 		</div>
 		<div class="exo">
