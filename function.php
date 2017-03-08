@@ -63,6 +63,14 @@
 		<div class="exo">
 			<h2>Exercice 5</h2>
 			<?php
+				function ablibli (int $nb, string $st){
+					return $nb.$st;
+				}
+				if (ablibli(2, "testicule")){
+					echo 'test ok <br>';
+				}else{
+					echo 'NOPE <br>';
+				}
 			?>
 		</div>
 		<div class="exo">
