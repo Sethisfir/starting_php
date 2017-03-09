@@ -27,26 +27,19 @@
 			<a href="superglobal2.php">Superglobal 2</a>
 		</div>
 		<div class="exo">
-			<h2>Exercice 3</h2>
-			<form action="#" method="post" accept-charset="utf-8">
-				<input type="text" placeholder="login" name="login">
-				<input type="text" placeholder="password" name="password">
-				<button type="submit">Submit</button>
-			</form>
-			
+			<h2>Exercice 3 - 4 - 5</h2>					
 			<?php	
-				if(isset($_POST["login"], $_POST["password"])){
-					$_COOKIE["login"]=$_POST["login"];
-					$_COOKIE["password"]=$_POST["password"];
-					echo "login : ".$_COOKIE['login']."<br>";
-					echo "Password : ".$_COOKIE['password'];
-				}		
+				if(isset($_COOKIE["login"], $_COOKIE["password"])){
+					echo "<a href='superglobal2.php'>Superglobal 2</a>";
+				}else{
+					echo "<form action='superglobal2.php' method='post' accept-charset='utf-8'>";
+						echo "<input type='text' placeholder='login' name='login'>";
+						echo "<input type='text' placeholder='password' name='password'>";
+						echo "<button type='submit'>Submit</button>";
+					echo "</form>";
+				}
 			?>
-		</div>
-		<div class="exo">
-			<h2>Exercice 4</h2>
-			<?php			
-			?>
+			
 		</div>
 		<div class="exo">
 			<h2>Exercice 5</h2>
