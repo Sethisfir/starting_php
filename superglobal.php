@@ -28,7 +28,19 @@
 		</div>
 		<div class="exo">
 			<h2>Exercice 3</h2>
-			<?php			
+			<form action="#" method="post" accept-charset="utf-8">
+				<input type="text" placeholder="login" name="login">
+				<input type="text" placeholder="password" name="password">
+				<button type="submit">Submit</button>
+			</form>
+			
+			<?php	
+				if(isset($_POST["login"], $_POST["password"])){
+					$_COOKIE["login"]=$_POST["login"];
+					$_COOKIE["password"]=$_POST["password"];
+					echo "login : ".$_COOKIE['login']."<br>";
+					echo "Password : ".$_COOKIE['password'];
+				}		
 			?>
 		</div>
 		<div class="exo">
