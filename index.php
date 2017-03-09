@@ -14,5 +14,6 @@
 	<a href="tableaux.php"><h3>Exercice 5</h3></a>
 	<a href="parametre.php"><h3>Exercice 6</h3></a>
 	<a href="formulaire.php"><h3>Exercice 7</h3></a>
+	<a href="superglobal.php"><h3>Exercice 8</h3></a>
 </body>
 </html>

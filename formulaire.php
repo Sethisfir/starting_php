@@ -41,10 +41,14 @@
 			</form>
 		</div>
 		<div class="exo" id="ex5">
-			<h2>Exercice 5</h2>
+			<h2>Exercice 5-6-7-8</h2>
 			<?php
+			if(strtolower($ext) != ‘jpg’ || strtolower($ext) != ‘gif’) {
+				echo « Format de fichier incorrect : vous devez utiliser un format .jpg ou .gif :<br />
+				merci de revenir en arrière et de choisir une image conforme »;
+			}
 			if(isset($_POST["nom"],$_POST["prenom"])){
-				echo "nom : ".$_POST["nom"]."<br>Prenom : "." ".$_POST["prenom"];;
+				echo "nom : ".$_POST["nom"]."<br>Prenom : "." ".$_POST["prenom"];
 			}else{ ?>
 			<form action="" method="post" accept-charset="utf-8">
 				<select name="civilite">
@@ -53,6 +57,8 @@
 				</select>
 				<input type="text" placeholder="nom" name="nom">
 				<input type="text" placeholder="prenom" name="prenom">
+				<input type="file" name="file" id="file" class="inputfile">
+				<label for="file">Choose a file</label>
 				<button type="submit">Submit</button>
 			</form>
 			<? }?>
